@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Prueba.Tekton.Data\Prueba.Tekton.Infraestructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="log\" />
+  </ItemGroup>
+
 </Project>

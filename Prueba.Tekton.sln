@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prueba.Tekton.Api", "Prueba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prueba.Tekton.Application", "Prueba.Tekton.Application\Prueba.Tekton.Application.csproj", "{4AF84576-A3D6-4134-8FF0-C25C02F5B9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba.Tekton.UnitTests", "Prueba.Tekton.UnitTests\Prueba.Tekton.UnitTests.csproj", "{AAC0DFA1-15E0-42F2-B7EE-CA0F7D859485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prueba.Tekton.UnitTests", "Prueba.Tekton.UnitTests\Prueba.Tekton.UnitTests.csproj", "{AAC0DFA1-15E0-42F2-B7EE-CA0F7D859485}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log", "log", "{5F1CDAE2-EDE8-4BDF-A831-9C8A781FD762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +66,7 @@ Global
 		{6C66B239-3688-419A-B8F1-4598939ACE7E} = {42AE3C3A-9EA8-4EEC-904B-03A1BAFF7CFD}
 		{4AF84576-A3D6-4134-8FF0-C25C02F5B9C4} = {4D8E176D-990F-4076-A554-81C0D93E8275}
 		{AAC0DFA1-15E0-42F2-B7EE-CA0F7D859485} = {A3EC440A-3180-40B0-A351-516028722D67}
+		{5F1CDAE2-EDE8-4BDF-A831-9C8A781FD762} = {2E1F6BDE-F3C3-4953-A9BC-759243DAD9FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F75EDCB6-6460-4327-808C-7A552C6883B1}

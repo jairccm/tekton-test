@@ -1,3 +1,4 @@
+using Prueba.Tekton.Api.Middleware;
 using Prueba.Tekton.Application;
 using Prueba.Tekton.Infraestructure;
 
@@ -20,6 +21,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+var logPath = Path.Combine("log", "app_log.txt");
+app.UseMiddleware<ResponseTimeLoggingMiddleware>(logPath);
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseAuthorization();
 
